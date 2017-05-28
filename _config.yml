@@ -1,10 +1,10 @@
 # Site settings
-title: My First Blog
+title: Journey of a developer
 header-img: img/home-bg.png
 email: josephkim0224@gmail.com
 copyright_name: JKCodes
 description: > # this means to ignore newlines until "baseurl:"
-  My blogging starts today!
+  Learning process that never ends
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  JKCodes
