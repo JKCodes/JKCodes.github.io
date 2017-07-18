@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Event Manager Rails App with JavaScript!"
+date:   2017-07-18 15:29:13 +0000
+---
+
+ 
+Welcome back to this updated version of the Event Manager app.  The main features of the app remains the same.  The main goal of this app is to introduce some additional functionalities to the app.  These functionalities will work via ajax calls, so the page will not have to refresh itself and the process is very quick compared to refreshing the whole page.  This updated app now uses Ajax to load events and participants on demand (instead of loading all of them right away).  The idea behind this was so that the page does not automatically load 1000+ participants or events every time the page is loaded.  In addition, users can quickly create locations on the index page without having to load the form.  The main idea behind this feature is to allow users to quickly create locations.  Finally, users can now sift through their locations and participants on the location/participant show pages.  It is important to note that currently, users can only view the locations and participants.  They cannot edit or delete those locations and participants using this feature.  All of the above are done without having to refresh the page once!
+ 
+One part of this project that gave me quite a bit headache was the sifting through the participants and locations section.  This part needed a lot of logic, and for a good hour or two, I just simply couldn't figure out why my code was not working.  So, after taking a rather long dinner break, I came back to my code and found out that I had a variable assignment problem, and this issue was causing the rest of my code to not work.  Most of time, copy-and-pasting saves time, but this time, it cost me over an hour of my time!  Better be more careful next time.
+  
+This was also an extremely time consuming app.  However, the reason why I found it so time-consuming was not that the programming part was hard, but refactoring part was quite long and time-consuming.  As we all know, refactoring one thing also meant that another part of the code can be refactored, and it seemed as if I was stuck on this never-ending refactoring cycle.  However, looking at the end product (code) makes it so worth it.  It makes the code so much more readable and versatile.   Now, as I head towards my final project, I'm excited to see what React and Redux looks like!
